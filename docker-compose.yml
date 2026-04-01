@@ -15,6 +15,19 @@ services:
       - tableorder-network
     restart: unless-stopped
 
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: tableorder-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - tableorder-network
+    restart: unless-stopped
+
 networks:
   tableorder-network:
     driver: bridge

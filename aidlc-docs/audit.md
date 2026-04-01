@@ -183,8 +183,6 @@
 
 ---
 
----
-
 # ========== CONSTRUCTION PHASE - Unit 1: Backend API ==========
 
 ## CONSTRUCTION PHASE 시작 - Unit 1 (Backend API) Functional Design
@@ -336,7 +334,7 @@
 
 ---
 
-## Build and Test Stage
+## Build and Test Stage (Unit 1)
 **Timestamp**: 2026-04-01T00:37:00Z
 **Build Status**: 지침 생성 완료
 **Test Status**: 지침 생성 완료
@@ -346,6 +344,113 @@
 - integration-test-instructions.md
 - performance-test-instructions.md
 - build-and-test-summary.md
+
+---
+
+# ========== CONSTRUCTION PHASE - Unit 2: Customer Frontend ==========
+
+## Construction - Unit 2 Functional Design 시작
+**Timestamp**: 2026-04-01T00:20:00Z
+**User Input**: "Unit 1은 나중에 할거야. Unit 2부터 시작해줘."
+**AI Response**: Unit 2 (Customer Frontend) Construction 단계 시작. Functional Design Plan 생성 및 질문 파일 작성.
+**Context**: CONSTRUCTION PHASE - Unit 2 Functional Design - 계획 수립
+
+---
+
+## Construction - Unit 2 Functional Design 질문 답변
+**Timestamp**: 2026-04-01T00:22:00Z
+**User Input**: 객관식 답변 완료 + 3개 질문 추가 확인 요청
+**AI Response**: 답변 확인. Q1-1:A, Q1-2:B, Q2-1:B, Q2-2:A(SSE는 Admin전용 확인), Q3-1:A, Q3-2:A, Q4-1:A(배달앱 UX 리서치 후 확정), Q4-2:C, Q5-1:B, Q5-2:B, Q6-1:C(API구조 분석 후 확정).
+**Context**: CONSTRUCTION PHASE - Unit 2 Functional Design - 답변 분석 완료
+
+---
+
+## Construction - Unit 2 Functional Design 산출물 생성
+**Timestamp**: 2026-04-01T00:25:00Z
+**User Input**: "어 진행해줘."
+**AI Response**: Functional Design 산출물 4개 파일 생성 완료. 사용자 승인 대기 중.
+**Context**: CONSTRUCTION PHASE - Unit 2 Functional Design 완료, 승인 대기
+
+### 생성 산출물
+- domain-entities.md: TypeScript 타입/인터페이스 정의 (6개 도메인 영역)
+- business-logic-model.md: 6개 페이지 + 공통 로직 플로우
+- business-rules.md: 인증/장바구니/주문/금액/에러 처리 규칙
+- frontend-components.md: 컴포넌트 계층, 라우팅, 상태 관리, API 연동
+
+---
+
+## Construction - Unit 2 Functional Design 승인
+**Timestamp**: 2026-04-01T00:26:00Z
+**User Input**: (이전 세션에서 승인됨)
+**AI Response**: Functional Design 승인 확인. NFR Requirements 단계로 진행.
+**Context**: CONSTRUCTION PHASE - Unit 2 Functional Design 승인 완료
+
+---
+
+## Construction - Unit 2 NFR Requirements 질문 답변
+**Timestamp**: 2026-04-01T00:30:00Z
+**User Input**: "답변했어 확인해봐" / "A로 진행."
+**AI Response**: 11개 질문 답변 확인. Q3-1에 대해 localStorage 저장 내용 설명 후 사용자가 A(자동 초기화) 선택. 전체 답변 확인. 모순/모호성 없음. NFR Requirements 산출물 생성 진행.
+**Context**: CONSTRUCTION PHASE - Unit 2 NFR Requirements - 답변 분석 완료, 산출물 생성
+
+---
+
+## Construction - Unit 2 NFR Requirements 산출물 생성
+**Timestamp**: 2026-04-01T00:31:00Z
+**User Input**: N/A (자동 진행)
+**AI Response**: NFR Requirements 산출물 2개 파일 생성 완료. 사용자 승인 대기 중.
+**Context**: CONSTRUCTION PHASE - Unit 2 NFR Requirements 완료, 승인 대기
+
+### 생성 산출물
+- nfr-requirements.md: 성능/사용성/신뢰성/보안/유지보수성 요구사항
+- tech-stack-decisions.md: React 18, TypeScript, Vite, Tailwind CSS, Axios, Jest + RTL, fast-check
+
+---
+
+## Construction - Unit 2 NFR Requirements 승인
+**Timestamp**: 2026-04-01T00:35:00Z
+**User Input**: "NFR 승인. Infra design으로 넘어가자."
+**AI Response**: NFR Requirements 승인 확인. Infrastructure Design 단계로 진행.
+**Context**: CONSTRUCTION PHASE - Unit 2 NFR Requirements 승인 완료, Infrastructure Design 시작
+
+---
+
+## Construction - Unit 2 Infrastructure Design 질문 답변
+**Timestamp**: 2026-04-01T00:36:00Z
+**User Input**: 답변 완료 + 추가 확인 후 "A vite build로 진행"
+**AI Response**: 답변 분석 완료. 산출물 생성 진행.
+**Context**: CONSTRUCTION PHASE - Unit 2 Infrastructure Design - 답변 분석 완료
+
+---
+
+## Construction - Unit 2 Infrastructure Design 산출물 생성
+**Timestamp**: 2026-04-01T00:37:00Z
+**User Input**: N/A (자동 진행)
+**AI Response**: Infrastructure Design 산출물 2개 파일 생성 완료. 사용자 승인 대기 중.
+**Context**: CONSTRUCTION PHASE - Unit 2 Infrastructure Design 완료, 승인 대기
+
+### 생성 산출물
+- infrastructure-design.md: 인프라 개요, 컨테이너 구성, 네트워킹, Nginx 설정, 환경변수, 개발 환경
+- deployment-architecture.md: 배포 다이어그램, Dockerfile, nginx.conf, docker-compose.yml, 파일 배치
+
+---
+
+## Construction - Unit 2 Infrastructure Design 승인 (묵시적)
+**Timestamp**: 2026-04-01T01:00:00Z
+**User Input**: "Code Generation 시작하자."
+**AI Response**: Infrastructure Design 승인으로 간주. Code Generation Plan 작성 시작.
+**Context**: CONSTRUCTION PHASE - Unit 2 Infrastructure Design 승인, Code Generation 시작
+
+---
+
+## Construction - Unit 2 Code Generation Plan 생성
+**Timestamp**: 2026-04-01T01:01:00Z
+**User Input**: N/A (자동 진행)
+**AI Response**: Code Generation Plan 12 Steps 생성 완료. 사용자 승인 대기 중.
+**Context**: CONSTRUCTION PHASE - Unit 2 Code Generation Part 1 (Planning) 완료, 승인 대기
+
+### 생성 산출물
+- customer-frontend-code-generation-plan.md: 12단계 코드 생성 계획 (US-01~US-07 커버)
 
 ---
 
@@ -464,5 +569,15 @@
 - unit-test-instructions.md
 - integration-test-instructions.md
 - build-and-test-summary.md
+
+---
+
+# ========== INTEGRATION ==========
+
+## 브랜치 통합
+**Timestamp**: 2026-04-01T02:00:00Z
+**User Input**: "Unit 3개 모두를 완료해서 브랜치 별로 만들었어. AI-DLC에 맞춰서 하나로 합치려고해"
+**AI Response**: integration/all-units 브랜치에서 Unit 1 (Backend) + Unit 3 (Admin Frontend) + Unit 2 (Customer Frontend) 순서로 머지 진행. Unit 2 파일을 frontend/src/table/ 하위로 재배치. 충돌 해결 완료.
+**Context**: 전체 유닛 통합 - 3개 브랜치 머지
 
 ---

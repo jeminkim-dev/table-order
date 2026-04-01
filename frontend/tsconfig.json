@@ -17,7 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "@shared/*": ["src/shared/*"],
-      "@admin/*": ["src/admin/*"]
+      "@admin/*": ["src/admin/*"],
+      "@table/*": ["src/table/*"]
     }
   },
   "include": ["src"]

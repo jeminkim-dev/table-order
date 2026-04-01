@@ -3,12 +3,14 @@ node_modules/
 
 # Build output
 frontend/dist/
+dist/
 backend/build/
 
 # Environment
 .env
 .env.local
 .env.*.local
+.env.production
 
 # IDE
 .idea/
@@ -29,3 +31,11 @@ coverage/
 # Docker
 *.sqlite
 *.db
+
+# Vite
+*.local
+
+# Gradle
+.gradle/
+backend/.gradle/
+backend/.jqwik-database
