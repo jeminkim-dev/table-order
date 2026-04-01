@@ -1,5 +1,5 @@
 import { createContext, useContext, useReducer, useEffect, type ReactNode } from 'react';
-import { getToken, getStoreId, getUsername, removeToken } from '@shared/auth/authUtils';
+import { getToken, getStoreId, getUsername } from '@shared/auth/authUtils';
 
 interface AuthState {
   token: string | null;
