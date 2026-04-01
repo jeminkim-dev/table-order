@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tableorder.sse.SseServicePBTTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-04-01T05:39:02" hostname="starryeyeui-MacBookAir.local" time="0.004">
+  <properties/>
+  <testcase name="eventTypeIsAlwaysValid" classname="com.tableorder.sse.SseServicePBTTest" time="0.001"/>
+  <testcase name="noSubscribersMeansNoError" classname="com.tableorder.sse.SseServicePBTTest" time="0.002"/>
+  <system-out><![CDATA[timestamp = 2026-04-01T14:39:02.236281, SseServicePBTTest:eventTypeIsAlwaysValid = 
+                              |-----------------------jqwik-----------------------
+tries = 4                     | # of calls to property
+checks = 4                    | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -3678688053207306829   | random seed to reproduce generated values
+
+
+timestamp = 2026-04-01T14:39:02.238918, SseServicePBTTest:noSubscribersMeansNoError = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 8427148557755302490    | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
